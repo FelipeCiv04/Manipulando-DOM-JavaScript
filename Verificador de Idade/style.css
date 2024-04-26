@@ -1,0 +1,42 @@
+body{
+    background: rgb(70, 142, 236);
+    font: normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align:center;
+    font: bold 30pt arial;
+    margin-bottom: 15px;
+}
+
+section{
+    background:white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin:auto;
+    box-shadow: 3px 3px 10px black;
+}
+
+footer{
+    color: rgba(255, 255, 255, 0.335);
+    text-align: center;
+    font-style: italic;
+}
+input#buttonCheck{
+    border: 2px solid #1110103b;
+    border-radius: 6px;
+    font: bold 15pt Arial;
+    display: block;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(10, 10, 10, 0.326);
+}
+
+input#txtano{
+    border-radius: 4px;
+    padding: 8px;
+    font: normal 14pt Arial;
+    border: 2px solid rgba(0, 0, 0, 0.275);
+    
+}

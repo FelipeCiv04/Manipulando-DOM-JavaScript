@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing Shit</title>
+    <link rel="stylesheet" href="./estilo.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Contagem de números em passos.
+        </h1>
+    </header>
+
+    <section>
+        <div id="form1">Começo:</div>
+        <input type="number" id="comeco" oninput= "limitarCaracteres(this, 4)">
+
+        <div id="form2">Final:</div>
+        <input type="number" id="final" oninput="limitarCaracteres(this, 4)">
+
+        <div id="form3">Passo:</div>
+        <input type="number" id="passo" oninput="limitarCaracteres(this, 4)">
+
+
+        <div id="button">
+            <button id="cbutton" onclick="contar()">Contar</button>
+        </div>
+
+
+        <div id="contagem"> Preparando Contagem...</div>
+    </section>
+
+    <footer>&copy; <span>Felipe Souza</span></footer>
+</body>
+
+</html>
